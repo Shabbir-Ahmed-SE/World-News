@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    border: 0px;
+}
+body{
+     background-image: linear-gradient(#b0fdf5, #89ffdc);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.navebar{
+    width: 100%;
+    height: 70px;
+    background-color: #00A1B5;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 30px;
+}
+.logo{
+    width: 200px;
+    height: 100%;
+}
+.logo img{
+    width: 150px;
+    height: 100%;
+    object-fit: contain;
+}
+.search{
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: #1c9fb1;
+
+}
+.search input{
+    width: 400px;
+    height: 32px;
+    border-right: 2px solid black;
+    border-radius: 20px 0px 0px 20px ;
+    background-color: #0ab7ce;
+    font-size: 18px;
+    padding-inline: 10px;
+}
+.search img{
+    width: 25px;
+    height: 25px;
+    margin-inline: 10px;
+}
+.popular ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 580px;
+}
+.popular li a{
+    color: black;
+    font-size: 25px;
+    font-weight: 800
+}
+li a:hover{
+    text-decoration: underline;
+    color: aliceblue;
+}
+
+.topnews{
+    width: 100%;
+    height: 420px;
+    margin-block: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+.news{
+    width: 300px;
+    height: 400px;
+    background-color:#64ebfd;
+    border-radius: 20px;
+}
+.news img{
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+.about{
+    margin: 10px;
+}
+.about h2{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.about p{
+    font-size: 18px;
+}
+.news:hover {
+    margin-bottom: 15px;
+    box-shadow: 2px 10px 10px 5px rgb(122, 114, 114);
+    transition: all 1s ease-out;
+}
+.about h2:hover{
+    text-decoration: underline;
+    color:dodgerblue;
+}
+
+.content{
+    width: 100%;
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content img{
+    height: 600px;
+    margin-block: 30px;
+}
+.disc{
+    color: rgb(114, 114, 114);
+    width: 100%;
+}
+.content h2{
+    font-size: 60px;
+}
+.content h3{
+    font-size: 40px;
+    width: 100%;
+    margin-block: 15px;
+}
+.content p{
+    font-size: 22px;
+    line-height: 30px;
+}
+.content span{
+    font-size: 60px;
+}
+
+footer{
+    width: 100%;
+    height: 220px;
+    background-color: #00A1B5;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+section li{
+    list-style: none;
+    font-size: 18px;
+    margin: 10px;
+}
